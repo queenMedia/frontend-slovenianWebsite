@@ -1,0 +1,21 @@
+ #story .hero-deposit-img {
+     padding: 0;
+     display: inline-block;
+     width: 65.4%;
+     margin: 0;
+     float: left;
+ }
+ #story .hero-deposit-svg {
+     enable-background:new 0 0 267 519;
+     padding: 0;
+     display: inline-block;
+     width: 33.9%;
+     margin: 0;
+ }
+
+ @media only screen and (max-width: 500px){
+     #story .hero-deposit-img,
+     #story .hero-deposit-svg {
+         width: 100%;
+     }
+ }

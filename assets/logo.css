@@ -1,0 +1,29 @@
+img.logo_image {
+    object-fit: cover;
+    width:100%;
+    height:auto;
+}
+
+.desktop_logo {
+    width:100%;
+    height:auto;
+    padding: 0 0 15px 0;
+}
+
+.mobile_logo {
+    display: none;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .desktop_logo {
+        display: none;
+    }
+    .mobile_logo {
+        display: block;
+    }
+    img.logo_image {
+        width:100%;
+        height:auto;
+    }
+}
